@@ -102,10 +102,12 @@ public class Main {
         } else if ((b > a) && (b > c)) ;
         {
             System.out.println("большее число" + b);
-        } else if ((c > a)&& (c > b)); {
+        } else if ((c > a) && (c > b)) ;
+        {
             System.out.println("большее число" + c);
         }
     }
+}
 
 
 
