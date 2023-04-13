@@ -92,19 +92,19 @@ public class Main {
     public static void task7() {
         System.out.println("задача 7");
         int a;
-        a = 1;
+        a = 6;
         int b;
-        b = 2;
+        b = 12;
         int c;
-        c = 3;
+        c = 1;
         if ((a > b) && (a > c)) {
-            System.out.println("большее число" + a);
-        } else if ((b > a) && (b > c)) ;
+            System.out.println("большее число " + a);
+        } else if ((b > a) && (b > c))
         {
-            System.out.println("большее число" + b);
-        } else if ((c > a) && (c > b)) ;
+            System.out.println("большее число " + b);
+        } else if ((c > b) && (c > a))
         {
-            System.out.println("большее число" + c);
+            System.out.println("большее число " + c);
         }
     }
 }
